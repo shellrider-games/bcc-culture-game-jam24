@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.XR.Interaction.Toolkit;
 
 public class GrowOnInteract : MonoBehaviour
@@ -19,7 +20,7 @@ public class GrowOnInteract : MonoBehaviour
 
     public void Grow()
     {
-        transform.localScale += new Vector3(0.1f, 0.1f, 0.1f);
+        SceneManager.LoadScene("Painting");
     }
     
     public void OnSelectEntered(SelectEnterEventArgs args)
