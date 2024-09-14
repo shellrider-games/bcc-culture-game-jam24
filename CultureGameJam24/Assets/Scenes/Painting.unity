@@ -961,7 +961,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   snapTarget: {fileID: 1016157136}
   snapRadius: 0.1
-  grabSystem: {fileID: 0}
 --- !u!1 &1229458014 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2550463727306718371, guid: edeb189be47e946edbafd3cf15dc68ee, type: 3}
@@ -1039,7 +1038,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   snapTarget: {fileID: 0}
   snapRadius: 0.1
-  grabSystem: {fileID: 0}
 --- !u!114 &1298713190
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1406,6 +1404,10 @@ PrefabInstance:
     - target: {fileID: 2951761360392420871, guid: a945ffab1ad8842498477c3aeb8342fb, type: 3}
       propertyPath: m_Name
       value: XR
+      objectReference: {fileID: 0}
+    - target: {fileID: 5199463609816719776, guid: a945ffab1ad8842498477c3aeb8342fb, type: 3}
+      propertyPath: m_ExcludeLayers.m_Bits
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7731790741984342240, guid: a945ffab1ad8842498477c3aeb8342fb, type: 3}
       propertyPath: m_LocalPosition.x

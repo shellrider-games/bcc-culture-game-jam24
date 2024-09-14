@@ -41,7 +41,7 @@ public class QuestManager : MonoBehaviour
     {
         foreach (var objective in objectives)
         {
-            if (objective.complete == false) return;
+            if (!objective.complete) return;
         }
         
         OnQuestComplete?.Invoke();

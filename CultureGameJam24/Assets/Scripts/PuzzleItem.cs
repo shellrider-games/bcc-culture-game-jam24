@@ -6,9 +6,6 @@ public class PuzzleItem : MonoBehaviour
 {
     [SerializeField] private GameObject snapTarget;
     [SerializeField] private float snapRadius = 0.1f;
-
-    [Header("Legacy")]
-    [SerializeField] private GrabSystem grabSystem;
     
     private XRGrabInteractable grabInteractable;
     
@@ -19,17 +16,6 @@ public class PuzzleItem : MonoBehaviour
         grabInteractable = GetComponent<XRGrabInteractable>();
         
         grabInteractable.selectExited.AddListener(OnSelectExited);
-
-        if (grabSystem != null)
-        {
-            grabSystem.OnRelease += (released) =>
-            {
-                if (released == gameObject)
-                {
-                    TrySnap();
-                }
-            };
-        }
     }
 
     void OnSelectExited(SelectExitEventArgs eventArgs)
@@ -49,7 +35,7 @@ public class PuzzleItem : MonoBehaviour
             
             OnSnapped?.Invoke(this);
 
-            tag = "Untagged";
+            grabInteractable.enabled = false;
         }
     }
 }

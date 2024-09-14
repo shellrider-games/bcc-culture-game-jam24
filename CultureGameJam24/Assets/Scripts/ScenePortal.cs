@@ -14,7 +14,6 @@ public class ScenePortal : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log("Enter");
         if (other.CompareTag("Player"))
         {
             other.transform.position = target.position;
