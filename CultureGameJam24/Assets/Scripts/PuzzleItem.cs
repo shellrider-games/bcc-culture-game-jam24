@@ -1,23 +1,43 @@
 using System;
 using UnityEngine;
+using UnityEngine.XR.Interaction.Toolkit;
 
 public class PuzzleItem : MonoBehaviour
 {
-    [SerializeField] private GrabSystem grabSystem;
     [SerializeField] private GameObject snapTarget;
     [SerializeField] private float snapRadius = 0.1f;
 
+    [Header("Legacy")]
+    [SerializeField] private GrabSystem grabSystem;
+    
+    private XRGrabInteractable grabInteractable;
+    
     public event Action<PuzzleItem> OnSnapped;
     
     void Start()
     {
-        grabSystem.OnRelease += (released) =>
+        grabInteractable = GetComponent<XRGrabInteractable>();
+        
+        grabInteractable.selectExited.AddListener(OnSelectExited);
+
+        if (grabSystem != null)
         {
-            if (released == this.gameObject)
+            grabSystem.OnRelease += (released) =>
             {
-                TrySnap();
-            }
-        };
+                if (released == gameObject)
+                {
+                    TrySnap();
+                }
+            };
+        }
+    }
+
+    void OnSelectExited(SelectExitEventArgs eventArgs)
+    {
+        if (eventArgs.interactableObject.transform.gameObject == gameObject)
+        {
+            TrySnap();
+        }
     }
 
     void TrySnap()

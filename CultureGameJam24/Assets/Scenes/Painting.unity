@@ -959,9 +959,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 210c58c73da084ba58b9683ebac5c3cc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  grabSystem: {fileID: 0}
-  snapTarget: {fileID: 0}
+  snapTarget: {fileID: 1016157136}
   snapRadius: 0.1
+  grabSystem: {fileID: 0}
 --- !u!1 &1229458014 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2550463727306718371, guid: edeb189be47e946edbafd3cf15dc68ee, type: 3}
@@ -1037,9 +1037,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 210c58c73da084ba58b9683ebac5c3cc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  grabSystem: {fileID: 0}
   snapTarget: {fileID: 0}
   snapRadius: 0.1
+  grabSystem: {fileID: 0}
 --- !u!114 &1298713190
 MonoBehaviour:
   m_ObjectHideFlags: 0
