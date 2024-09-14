@@ -1,18 +1,16 @@
 using System;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class GrabSystem : MonoBehaviour
 {
     [SerializeField] private string grabTag;
     [SerializeField] private float grabRange;
     [SerializeField] private Transform grabPoint;
-    [SerializeField] private float speed = 10f;
-    [SerializeField] private float acceleration = 5f;
-    [SerializeField] float maxSpeed = 10f;
     
-    public float springConstant = 50f;   // How stiff the "spring" is (higher value = faster movement)
-    public float dampingFactor = 10f;    // Damping factor to prevent oscillation/overshoot
-    public float stopDistance = 0.01f;   // Distance at which to stop moving
+    [SerializeField] private float springConstant = 50f;   // How stiff the "spring" is (higher value = faster movement)
+    [SerializeField] private float dampingFactor = 10f;    // Damping factor to prevent oscillation/overshoot
+    [SerializeField] private float stopDistance = 0.01f;   // Distance at which to stop moving
     
     private bool grabbed = false;
     private GameObject grabbedObject;
@@ -32,20 +30,17 @@ public class GrabSystem : MonoBehaviour
         if (grabbed) MoveGrabbedObject();
     }
 
-    // Update is called once per frame
-    void Update()
+    public void OnGrab(InputAction.CallbackContext context)
     {
-        if (grabbed)
+        if (context.performed)
+            TryGrab();
+
+        if (context.canceled)
         {
-            if (Input.GetMouseButtonUp(0))
+            if (grabbed)
             {
                 ReleaseGrab();
             }
-        }
-        
-        if (Input.GetMouseButtonDown(0))
-        {
-            TryGrab();
         }
     }
 
