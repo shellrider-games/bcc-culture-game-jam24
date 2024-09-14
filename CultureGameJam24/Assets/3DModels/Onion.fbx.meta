@@ -3,7 +3,12 @@ guid: 344f3473d8deb4d379ab2f5491b53ae4
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Onion_normals_paint
+    second: {fileID: 2800000, guid: fe2676fdebd6a4181b6a23ee2f75383a, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
