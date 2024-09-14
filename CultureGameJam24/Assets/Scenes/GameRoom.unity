@@ -932,6 +932,80 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!1001 &1334203786
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1495220047}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: dfb9cfb3068b4485782624a388fd29e2, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.938475
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: dfb9cfb3068b4485782624a388fd29e2, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.95617163
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: dfb9cfb3068b4485782624a388fd29e2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: dfb9cfb3068b4485782624a388fd29e2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.033
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: dfb9cfb3068b4485782624a388fd29e2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: dfb9cfb3068b4485782624a388fd29e2, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: dfb9cfb3068b4485782624a388fd29e2, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: dfb9cfb3068b4485782624a388fd29e2, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: dfb9cfb3068b4485782624a388fd29e2, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: dfb9cfb3068b4485782624a388fd29e2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: dfb9cfb3068b4485782624a388fd29e2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: dfb9cfb3068b4485782624a388fd29e2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: dfb9cfb3068b4485782624a388fd29e2, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: be16f4df1818f42db81684e2bce5ef27, type: 2}
+    - target: {fileID: 919132149155446097, guid: dfb9cfb3068b4485782624a388fd29e2, type: 3}
+      propertyPath: m_Name
+      value: frame
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: dfb9cfb3068b4485782624a388fd29e2, type: 3}
+--- !u!4 &1334203787 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: dfb9cfb3068b4485782624a388fd29e2, type: 3}
+  m_PrefabInstance: {fileID: 1334203786}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1363726775
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1021,6 +1095,11 @@ Transform:
   - {fileID: 1082816714}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1495220047 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 1218408d4a157418794b8f7497e867b0, type: 3}
+  m_PrefabInstance: {fileID: 1689423540}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1658152536
 GameObject:
   m_ObjectHideFlags: 0
@@ -1197,13 +1276,20 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 1218408d4a157418794b8f7497e867b0, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c877ca5cbff274304bf019f30a274da1, type: 2}
     - target: {fileID: 919132149155446097, guid: 1218408d4a157418794b8f7497e867b0, type: 3}
       propertyPath: m_Name
       value: Painting
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 1218408d4a157418794b8f7497e867b0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1334203787}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 1218408d4a157418794b8f7497e867b0, type: 3}
       insertIndex: -1
@@ -1217,6 +1303,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 1218408d4a157418794b8f7497e867b0, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1689423545}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 1218408d4a157418794b8f7497e867b0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1689423546}
   m_SourcePrefab: {fileID: 100100000, guid: 1218408d4a157418794b8f7497e867b0, type: 3}
 --- !u!1 &1689423541 stripped
 GameObject:
@@ -1303,10 +1392,34 @@ MonoBehaviour:
   m_AllowGazeAssistance: 0
   m_FirstHoverEntered:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1689423546}
+        m_TargetAssemblyTypeName: ActivateWobbleOnHover, Assembly-CSharp
+        m_MethodName: StartWobble
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_LastHoverExited:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1689423546}
+        m_TargetAssemblyTypeName: ActivateWobbleOnHover, Assembly-CSharp
+        m_MethodName: EndWobble
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_HoverEntered:
     m_PersistentCalls:
       m_Calls: []
@@ -1397,6 +1510,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce168b071959b40d1bedca0ca21de550, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1689423546
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1689423541}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d1bc193024b646e0bae91489c0850f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stateChangeSpeed: 0.5
 --- !u!1001 &6541208535460436570
 PrefabInstance:
   m_ObjectHideFlags: 0
