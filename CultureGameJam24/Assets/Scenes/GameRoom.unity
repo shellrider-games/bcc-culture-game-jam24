@@ -466,7 +466,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: -588}
-  m_SizeDelta: {x: 800, y: 200}
+  m_SizeDelta: {x: 1200, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &334116488
 MonoBehaviour:
@@ -1059,7 +1059,7 @@ AudioSource:
   Priority: 128
   DopplerLevel: 1
   MinDistance: 1
-  MaxDistance: 500
+  MaxDistance: 15
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -1094,7 +1094,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0
+      value: 1
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -1453,6 +1453,21 @@ PrefabInstance:
       propertyPath: subtitleText
       value: 
       objectReference: {fileID: 334116488}
+    - target: {fileID: 2311204369103371517, guid: 9ad58fcbb407f4f04812ab23699f7706, type: 3}
+      propertyPath: subtitles.Array.data[2].text
+      value: 'I had merely been engaged in a game of cards, believing my opponent
+        to be an ordinary gentleman. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2311204369103371517, guid: 9ad58fcbb407f4f04812ab23699f7706, type: 3}
+      propertyPath: subtitles.Array.data[3].text
+      value: 'To my dismay, it was revealed that this man was none other than the
+        devil himself. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2311204369103371517, guid: 9ad58fcbb407f4f04812ab23699f7706, type: 3}
+      propertyPath: subtitles.Array.data[4].text
+      value: 'His wrath at my victory was such that he has confined me within this
+        artistic prison. '
+      objectReference: {fileID: 0}
     - target: {fileID: 5067577888148110395, guid: 9ad58fcbb407f4f04812ab23699f7706, type: 3}
       propertyPath: m_Name
       value: SubtitlePlayer
