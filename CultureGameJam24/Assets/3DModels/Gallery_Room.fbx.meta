@@ -1,0 +1,240 @@
+fileFormatVersion: 2
+guid: f5329203d597745afa0a0a923f15b931
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Aufbruch zur Beizjagd-min
+    second: {fileID: 2800000, guid: ef0cd473dfbd2434ea62778752335461, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Aussicht von der Albrechtsburg in Klosterneuburg-min
+    second: {fileID: 2800000, guid: 6682409e83ee74e0d9ebabf299866eb3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Beizerfolg auf Reiher-min
+    second: {fileID: 2800000, guid: 423b8456b905648ae8bf0f3b5abac04b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Der Galante Helfer-min
+    second: {fileID: 2800000, guid: 112f3c8ae4abc4ba39b2ef86a70fbe6c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "Der Ku\u0308nstler in seinem Atelier-min"
+    second: {fileID: 2800000, guid: b6161c903f80c44f29f0eeaa1e400b4a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Der Schlachtenmaler August Querfurt-min
+    second: {fileID: 2800000, guid: 22bcf64b527f84cd8a4232302ba05199, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "Die Spitzenklo\u0308pplerin-min"
+    second: {fileID: 2800000, guid: 391d9050938e54a0ab876a0f7d4b9531, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Donaulandschaft, vom Bisamberg aus gesehen-min
+    second: {fileID: 2800000, guid: fc5030104e3c7404cac81fcb6c354877, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Floor_normals_flat
+    second: {fileID: 2800000, guid: 0729cf3eeca214091857cb9862cfc277, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "Franz_Werner_Tamm_BLumen_und_Fru\u0308chte-min"
+    second: {fileID: 2800000, guid: ff2ceaac29b4741579771c5f939c3d99, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Ideale Landschaft abend-min
+    second: {fileID: 2800000, guid: 1d460ff9b72b641349755d2dceaa6151, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Ideale Landschaft-min
+    second: {fileID: 2800000, guid: 1d410d637bb6b4d1cbf88675309a7a28, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Jagdstillleben mit Katze-min
+    second: {fileID: 2800000, guid: ee12dca8664034026b3eebda2abc7062, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "Jahrmarkt mit zinnenbekro\u0308ntem Bergfried-min"
+    second: {fileID: 2800000, guid: 16a33e4eb931e4840a95d7572ec2489b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Jahrmarkt vor einem Stadttor-min
+    second: {fileID: 2800000, guid: 70b97fa5d750b425e9f0a76cfcb70b1d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Katzen und Fische-min
+    second: {fileID: 2800000, guid: b19464a13e2d746ccacd68a0d6cba4e4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Kirchweihfest-min
+    second: {fileID: 2800000, guid: c7a0ddb12202543b7b1bc6df46ae0ac3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Laxenburg vom Hayd-Lusthaus gegen Maria Lanzendorf-min
+    second: {fileID: 2800000, guid: 9f9b1f8b2b722418e9ee1fd0a01ba591, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "Laxenburg vom Lusthaus auf der Hanawiese gegen Mo\u0308dling-min"
+    second: {fileID: 2800000, guid: 5b4c643ae8b78411f9335e324d0a1506, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "Laxenburg vom Mu\u0308nkendorfer Lusthaus gegen Su\u0308dwest-min"
+    second: {fileID: 2800000, guid: d47926f543a6c468bab1f0aba15c0ac9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "Laxenburg von der Schneiderau gegen Guntramsdorf und Mo\u0308dling-min"
+    second: {fileID: 2800000, guid: 45a570ce417394f62b64f70de089091b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Stillleben mit Krug und Tulpe-min
+    second: {fileID: 2800000, guid: 0f145b1ea30054472b70c52849ccd88a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Stillleben mit Kupfergeschirr-min
+    second: {fileID: 2800000, guid: e5592c71acc6b443c9556874b1229028, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "Stillleben mit Ku\u0308chengeschirr, Zwiebel und Kohlrabi-min"
+    second: {fileID: 2800000, guid: 8fa8cffc62a494b05a6a143ee590b651, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "Stillleben_mit_Ka\u0308se-min"
+    second: {fileID: 2800000, guid: a56a0ca2b4988444bbb4e18bc5cdc856, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Weinernte vor Wien mit Blick nach Klosterneuburg, den Leopoldsberg, Bisamberg
+        und Korneuburg-min
+    second: {fileID: 2800000, guid: 3dba5a41b227e4e8a8be2497af95d47e, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
