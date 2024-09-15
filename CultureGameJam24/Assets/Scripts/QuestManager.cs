@@ -5,7 +5,7 @@ using UnityEngine;
 using UnityEngine.Serialization;
 
 [Serializable]
-public struct Objective
+public class Objective
 {
     public PuzzleItem item;
     [NonSerialized] public bool complete;
