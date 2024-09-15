@@ -3150,7 +3150,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 28fcf0d0cc6154930bf5bdf6e26571a9, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.059375
+      value: 1.1470914
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 28fcf0d0cc6154930bf5bdf6e26571a9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3766,7 +3766,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 28fcf0d0cc6154930bf5bdf6e26571a9, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.059375
+      value: 1.1228317
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 28fcf0d0cc6154930bf5bdf6e26571a9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3895,7 +3895,7 @@ PrefabInstance:
     - target: {fileID: 2311204369103371517, guid: 9ad58fcbb407f4f04812ab23699f7706, type: 3}
       propertyPath: subtitleText
       value: 
-      objectReference: {fileID: 334116488}
+      objectReference: {fileID: 0}
     - target: {fileID: 2311204369103371517, guid: 9ad58fcbb407f4f04812ab23699f7706, type: 3}
       propertyPath: subtitles.Array.data[2].text
       value: 'I had merely been engaged in a game of cards, believing my opponent

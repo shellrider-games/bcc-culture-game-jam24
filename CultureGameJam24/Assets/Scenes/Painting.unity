@@ -837,7 +837,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   snapTarget: {fileID: 861192498}
   snapRadius: 0.1
-  audioSource: {fileID: 0}
+  audioSource: {fileID: 457861489}
 --- !u!1001 &523043702
 PrefabInstance:
   m_ObjectHideFlags: 0
