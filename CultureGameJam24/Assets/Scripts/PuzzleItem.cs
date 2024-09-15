@@ -7,6 +7,8 @@ public class PuzzleItem : MonoBehaviour
     [SerializeField] private GameObject snapTarget;
     [SerializeField] private float snapRadius = 0.1f;
     
+    [SerializeField] private AudioSource audioSource;
+    
     private XRGrabInteractable grabInteractable;
     
     public event Action<PuzzleItem> OnSnapped;
@@ -36,6 +38,8 @@ public class PuzzleItem : MonoBehaviour
             OnSnapped?.Invoke(this);
 
             grabInteractable.enabled = false;
+            
+            audioSource.Play();
         }
     }
 }

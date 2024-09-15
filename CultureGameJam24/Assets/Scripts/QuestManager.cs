@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.Serialization;
 
 [Serializable]
@@ -15,7 +16,7 @@ public class QuestManager : MonoBehaviour
 {
     [SerializeField] private List<Objective> objectives = new List<Objective>();
     
-    public event Action OnQuestComplete;
+    public UnityEvent OnQuestComplete;
     
     // Start is called before the first frame update
     void Start()
