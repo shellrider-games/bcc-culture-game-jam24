@@ -8,72 +8,72 @@ ModelImporter:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Bed_normales_paint
-    second: {fileID: 2800000, guid: 21c36a233f8cc460b88de8780ae2960f, type: 3}
+    second: {fileID: 2800000, guid: b16720ba5773347a895fc19ffac54241, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Korb_Base.002
-    second: {fileID: 2800000, guid: f5528b6fd499d4db4b2d10c85acfbaee, type: 3}
+    second: {fileID: 2800000, guid: 52224b77d2fa24acb807c08bc2a269fa, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Korb_normal.002
-    second: {fileID: 2800000, guid: 0ab02890e1b70410cab3c3ac82edf83f, type: 3}
+    second: {fileID: 2800000, guid: 261b862fa3ecf467384171c4b4c4ea5d, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Main_Image_base
-    second: {fileID: 2800000, guid: 4d3607770fa804cf3bb5c2da1fc8fd2c, type: 3}
+    second: {fileID: 2800000, guid: 1ff9afb349fa3437191db5db1cbb40ca, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Material.001_Base_color
-    second: {fileID: 2800000, guid: fd08f8dce9a0046a2b9784457f515e3b, type: 3}
+    second: {fileID: 2800000, guid: 1aa412753aafd49eb974da56833a011c, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Material.003_Base_color
-    second: {fileID: 2800000, guid: ded457a411599479bbbcb71dbc5313e3, type: 3}
+    second: {fileID: 2800000, guid: ef60a0247c4c742138214064fe7b1ba5, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Staffelei_halter_normals_paint
-    second: {fileID: 2800000, guid: 71ec294b713744ba4ae0f1d9a7e833f7, type: 3}
+    second: {fileID: 2800000, guid: 4d54f7abc1d3846368a4850257ee779b, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Stool_normales_paint
-    second: {fileID: 2800000, guid: 63ffd4d0385914bf2930c19685f75100, type: 3}
+    second: {fileID: 2800000, guid: ca02245509f634704b38cae38864e981, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: apple_normals_flat
-    second: {fileID: 2800000, guid: 92cd27e663e7e452d9ee41d0e24d7acc, type: 3}
+    second: {fileID: 2800000, guid: f866d63d57cb747b1b170332fdaf7378, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: cloth_normals_paint
-    second: {fileID: 2800000, guid: d06e67a1493144989a0f01c1d39e9402, type: 3}
+    second: {fileID: 2800000, guid: 6464fcefa528f4fd085969c4cb1d0b2e, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: half_apple_cut_normals_paint
-    second: {fileID: 2800000, guid: e90466741c6484514ac175f96a5b85d1, type: 3}
+    second: {fileID: 2800000, guid: 12191d6e743bc4372a4de52dc72059f3, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: half_apple_normals_paint
-    second: {fileID: 2800000, guid: 0e3b717e8254c4ff0b5773916650af2b, type: 3}
+    second: {fileID: 2800000, guid: 1876c0f0c015a4d259c5d3b5cb22fdbc, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: painting_room_normals_paint
-    second: {fileID: 2800000, guid: a0d86b53765f54e16bf048c715f15485, type: 3}
+    second: {fileID: 2800000, guid: 3d3d9feb8962d44eca0bd90da7d89785, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: table_normals_poaint_new
-    second: {fileID: 2800000, guid: f28e745d87af14547a260e1d3c79d1a9, type: 3}
+    second: {fileID: 2800000, guid: 2d27b018def2e4f4e9b5105b636d3f79, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0

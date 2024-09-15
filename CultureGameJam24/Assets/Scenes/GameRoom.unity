@@ -2809,7 +2809,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 1218408d4a157418794b8f7497e867b0, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: c0f36b2b71f594e9286eeef19f8a06c6, type: 2}
+      objectReference: {fileID: 2100000, guid: c877ca5cbff274304bf019f30a274da1, type: 2}
     - target: {fileID: 919132149155446097, guid: 1218408d4a157418794b8f7497e867b0, type: 3}
       propertyPath: m_Name
       value: Painting
